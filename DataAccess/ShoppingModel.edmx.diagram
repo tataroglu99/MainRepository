@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1d60dd4a5c1345febeb18da6841da80b" Name="Diagram1">
+        <EntityTypeShape EntityType="dbShoppingModel.Banner" Width="1.5" PointX="3.75" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbShoppingModel.Cart" Width="1.5" PointX="3" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbShoppingModel.Category" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbShoppingModel.Customer" Width="1.5" PointX="3.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbShoppingModel.Order" Width="1.5" PointX="3.75" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbShoppingModel.OrderDetail" Width="1.5" PointX="6" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbShoppingModel.Product" Width="1.5" PointX="0.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbShoppingModel.ProductCategory" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbShoppingModel.RecentlyView" Width="1.5" PointX="3" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbShoppingModel.Review" Width="1.5" PointX="6" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbShoppingModel.Store" Width="1.5" PointX="6" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbShoppingModel.SubCategory" Width="1.5" PointX="3" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbShoppingModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbShoppingModel.User" Width="1.5" PointX="1.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbShoppingModel.Wishlist" Width="1.5" PointX="9" PointY="15.375" IsExpanded="true" />
+        <AssociationConnector Association="dbShoppingModel.FK_Banner_User" ManuallyRouted="false" />
+        <AssociationConnector Association="dbShoppingModel.FK_Cart_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="dbShoppingModel.FK_Cart_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="dbShoppingModel.FK_Category_User" ManuallyRouted="false" />
+        <AssociationConnector Association="dbShoppingModel.FK_ProductCategory_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="dbShoppingModel.FK_SubCategory_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="dbShoppingModel.FK_Order_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="dbShoppingModel.FK_RecentlyView_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="dbShoppingModel.FK_Review_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="dbShoppingModel.FK_Wishlist_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="dbShoppingModel.FK_OrderDetail_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="dbShoppingModel.FK_OrderDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="dbShoppingModel.FK_ProductCategory_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="dbShoppingModel.FK_RecentlyView_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="dbShoppingModel.FK_Review_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="dbShoppingModel.FK_Store_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="dbShoppingModel.FK_Wishlist_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="dbShoppingModel.FK_Store_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
